@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.image-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: 30%;
+}
+
+.image-section h1{
+    background: #333;
+    color: white;
+}
+
+.quote-section {
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    margin-top: -113px;
+    margin-left: 15rem;
+}
+
+.biography-section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.biography-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.biography-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer-heading{
+    background: black
+}
+
+.timeline {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.timeline-date {
+    flex: 0 0 120px; 
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.timeline-content {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
